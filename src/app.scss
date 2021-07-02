@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+* {
+	font-family: "Nunito";
+}
+
+h1, h2, h3 {
+	color: #484FFF
+}
+
+html {
+	scroll-behavior : smooth;
+} 
+
+body {
+	background-color: #F2F2F2
+}
+
+button {
+	transition: 0.3s;
+	&:hover {
+		background: #484FFF;
+		& > * > * {
+			stroke: #F2F2F2;
+			fill: #F2F2F2
+		}
+	}
+}
